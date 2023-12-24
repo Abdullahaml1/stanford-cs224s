@@ -1,0 +1,81 @@
+{
+    "header": {
+        "namespace": "SkillDebugger",
+        "name": "CaptureError",
+        "messageId": "96feea37-402d-4dcd-8959-563602885f97"
+    },
+    "payload": {
+        "skillId": "amzn1.ask.skill.389a5ece-66f4-4cad-b8e8-47431d612e8a",
+        "timestamp": "2023-11-08T21:17:36.423Z",
+        "dialogRequestId": "26761e31-eea1-4163-8a13-a749693f613b",
+        "skillRequestId": "amzn1.echo-api.request.a5f1f40f-b3a4-4fab-b5a1-52c5cd6b9c84",
+        "code": "INVALID_SKILL_RESPONSE",
+        "description": "An error occurred while issuing a SkillRequest for  (requestId [amzn1.echo-api.request.a5f1f40f-b3a4-4fab-b5a1-52c5cd6b9c84]",
+        "debuggingInfo": {
+            "type": "SkillExecutionInfo",
+            "content": {
+                "invocationRequest": {
+                    "endpoint": "https://24ab-156-218-168-10.ngrok.io",
+                    "body": {
+                        "version": "1.0",
+                        "session": {
+                            "new": false,
+                            "sessionId": "amzn1.echo-api.session.c38cdb87-1f37-4433-855a-d6f98626c4a8",
+                            "application": {
+                                "applicationId": "amzn1.ask.skill.389a5ece-66f4-4cad-b8e8-47431d612e8a"
+                            },
+                            "attributes": {},
+                            "user": {
+                                "userId": "amzn1.ask.account.AMAZZTBGKG3HIWEWN2HURKOOVMWPMWKNDHYIA5YIBO4QJYSS75NRVXLJ62T7QAYS6SY5DWUCZK3FEERH6PMYWT5DCG6KWQGTEZEY6IZXGLJ4UASFTARSYI2GP6KH2R7MLTYMSI6DBUL4X2EQTPGFEIZGNGALD4JVZPMGIUOOWV6ORJC5ZG6WIHBF7SE64SCJ6T6KH75ENEGWUHHJLGQSRXEHHUEIOO2HQCDJYDEOZQ"
+                            }
+                        },
+                        "context": {
+                            "Viewports": [
+                                {
+                                    "type": "APL",
+                                    "id": "main",
+                                    "shape": "RECTANGLE",
+                                    "dpi": 213,
+                                    "presentationType": "STANDARD",
+                                    "canRotate": false,
+                                    "configuration": {
+                                        "current": {
+                                            "mode": "HUB",
+                                            "video": {
+                                                "codecs": [
+                                                    "H_264_42",
+                                                    "H_264_41"
+                                                ]
+                                            },
+                                            "size": {
+                                                "type": "DISCRETE",
+                                                "pixelWidth": 1280,
+                                                "pixelHeight": 800
+                                            }
+                                        }
+                                    }
+                                }
+                            ],
+                            "Viewport": {
+                                "experiences": [
+                                    {
+                                        "arcMinuteWidth": 346,
+                                        "arcMinuteHeight": 216,
+                                        "canRotate": false,
+                                        "canResize": false
+                                    }
+                                ],
+                                "mode": "HUB",
+                                "shape": "RECTANGLE",
+                                "pixelWidth": 1280,
+                                "pixelHeight": 800,
+                                "dpi": 213,
+                                "currentPixelWidth": 1280,
+                                "currentPixelHeight": 800,
+                                "touch": [
+                                    "SINGLE"
+                                ],
+                                "video": {
+                                    "codecs": [
+                                        "H_264_42",
+      
